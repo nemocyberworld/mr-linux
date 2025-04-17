@@ -1,5 +1,14 @@
 # 👨‍🏫 Mr Linux
 
+1. Want to insall this linux mastering app in your linux system?
+
+   Direct Download:
+
+   [mr-linux-v1.deb](https://drive.google.com/uc?export=download&id=1eHK_9F8T7GH_2p1AnJw7LrS2f52p3WHU)
+
+   ```
+   wget "https://drive.google.com/uc?export=download&id=1eHK_9F8T7GH_2p1AnJw7LrS2f52p3WHU"
+   ```
 2. **Run the main script**
 
 ```bash
