@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Name=Mr Linux
-Comment=Interactive Linux Command Learning Tool
-Exec=mr-linux
-Icon=mr-linux
-Terminal=true
-Type=Application
-Categories=Education;Utility;
