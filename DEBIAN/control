@@ -1,9 +1,0 @@
-Package: mr-linux
-Version: 1.0
-Section: base
-Priority: optional
-Architecture: all
-Depends: bash
-Maintainer: Saide Hossain <saide7583@gmail.com>
-Description: Mr Linux - Learn Linux Commands Interactively.
- A full offline, interactive CLI tool to learn Linux basics, tools, and scripting.
