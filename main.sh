@@ -169,7 +169,7 @@ show_lessons_in_category() {
 
   elif [[ "$CATEGORY_NAME" == "16. Gaming Time" ]]; then
     LESSON_LABELS=("Mr. Linux Game")
-    LESSON_DIRS=("01. Mr. Linux Game")
+    LESSON_DIRS=("Start Game")
 
   else
     echo "⚠️ No fixed lesson mapping found for this category."
