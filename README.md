@@ -69,7 +69,14 @@ The ultimate test. A 23-level Bash game that tests your Linux skills through rea
 
 ## 🛠️ Getting Started
 
-**Direct Download:** 
+**Direct Download: [mr-linux.deb](https://drive.google.com/uc?export=download&id=1l7UTSxDM3RA--Dn4eFjK4ZHCH6ZknLWI)**
+
+**How to install:**
+
+```
+sudo dpkg -i mr-linux.deb # for install
+sudo dpkg -r mr-linux.deb # for uninstall
+```
 
 ```bash
 git clone https://github.com/nemcyberworld/Mr-Linux.git
