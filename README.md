@@ -1,93 +1,108 @@
+
 # 🧠 Mr Linux: Become a Terminal Titan
 
-**Mr Linux** is a gamified, interactive Bash learning platform designed to make you *love* the terminal. Whether you're a beginner or a seasoned hacker, Mr Linux will sharpen your command-line skills through lessons, tasks, and a challenging Linux-based game.
+**Mr Linux** is a gamified, interactive Bash learning platform designed to make you *love* the terminal. Whether you're a beginner or a seasoned hacker, Mr Linux will sharpen your command-line skills through structured lessons, hands-on practice, and a challenging terminal-based game.
 
-> 🔧 Built by [Captain Nemo](https://github.com/nemcyberworld) | 📬 nemo14398@gmail.com
+> 🔧 Built by [Captain Nemo](https://github.com/nemcyberworld)
+>
+> 📬 [nemo14398@gmail.com](mailto:nemo14398@gmail.com)
+>
 > 🗓️ Last Updated: 20-04-2025
-> 🌐 Live at: [nemocyberworld.github.io](https://nemocyberworld.github.io)
+>
+> 🌐 Website: [nemocyberworld.github.io](https://nemocyberworld.github.io/)
 
 ---
 
 ## 🧭 Project Structure
 
 ```
-Mr-Linux/
-├── lesson/
-│   ├── 01. Introduction to Bash/
-│   ├── 02. File and Directory Management/
+mr-linux/
+├── main.sh                # Entry point for the learning interface
+├── config.sh              # Global configuration
+├── lessons/               # Structured topics and subtopics
+│   ├── 01. Intro/
+│   ├── 02. File & Directory Management/
 │   ├── ...
-│   └── 16. Gaming Time/
-│       └── lesson.sh  # Bash-based Mr. Linux Game
-├── assets/
-├── README.md
-└── ...
+│   └── 16. Gaming Time/   # Bash-based Mr Linux Game
+└── README.md
 ```
+
+---
 
 ## 🚀 Features
 
-- 🧪 25+ Interactive Bash Lessons
-- 📜 Command-line Concepts & Tools
-- 🎮 Linux Game with Levels & Progress Save
-- 🧠 Covers real-world skills: scripting, SSH, grep, pipes, arrays, conditionals, and more
-- ✅ Track your progress and earn points
-- 💻 100% Bash — no external dependencies
+* 🧪 **250+ interactive Bash lessons**
+* 📁 Categorized by real Linux topics
+* 🎮 A gamified Linux challenge mode with 23 levels
+* 🧠 Learn by doing: `awk`, `sed`, `grep`, permissions, networking, scripting, and more
+* ✅ Tracks your learning and progress
+* 💻 Written 100% in Bash – no external dependencies
 
 ---
 
 ## 🎓 Lesson Categories
 
-| #  | Topic                           |
-| -- | ------------------------------- |
-| 01 | Introduction to Bash            |
-| 02 | File and Directory Management   |
-| 03 | Variables and Quoting           |
-| 04 | Conditional Statements          |
-| 05 | Loops                           |
-| 06 | Functions                       |
-| 07 | Script Arguments                |
-| 08 | Command Substitution & Math     |
-| 09 | Redirection & Pipes             |
-| 10 | Arrays & Associative Arrays     |
-| 11 | Pattern Matching & Regex        |
-| 12 | Debugging & Error Handling      |
-| 13 | Signals & Traps                 |
-| 14 | Date, Time, and Scheduling      |
-| 15 | Networking & SSH Basics         |
-| 16 | 🎮 Gaming Time (Mr. Linux Game) |
+| #  | Topic                               |
+| -- | ----------------------------------- |
+| 01 | Intro to Linux & Shell              |
+| 02 | File & Directory Management         |
+| 03 | Searching & Filtering               |
+| 04 | Package Management (Debian & Arch)  |
+| 05 | Network Commands                    |
+| 06 | Process Management                  |
+| 07 | Disk Usage & Storage                |
+| 08 | Archiving & Compression             |
+| 09 | Task Management & Scheduling        |
+| 10 | Users, Groups, and Permissions      |
+| 11 | System Info & Hardware              |
+| 12 | System Cleanup & Monitoring         |
+| 13 | Cryptography & Hashing              |
+| 14 | Text Editors                        |
+| 15 | Bash Scripting (20 detailed parts)  |
+| 16 | 🎮 Gaming Time (The Challenge Game) |
 
 ---
 
-## 🎮 Mr. Linux Game
+## 🎮 Mr Linux Game
 
-The ultimate test. A 23-level Bash game that tests your Linux skills through real command-line challenges.
+Your skills will be tested in the **“Gaming Time”** section — a multi-level Bash-based challenge arena.
 
-- ✅ Save and resume progress
-- 🔐 Challenges include file permissions, grep puzzles, SSH simulations, and more
-- 📂 Progress stored in `~/.mr_linux_save`
+🧩 Features:
+
+* 23 handcrafted challenges
+* Topics include permissions, searching, scripting, networking, logs, regex, and more
+* Progress saved to `~/.mr_linux_save`
+
+🗂️ Example levels:
+
+* `level3_grep_mastery.sh`
+* `level10_networking2_nc.sh`
+* `level22_fork_bomb.sh`
+* `level23_bash_gauntlet.sh`
 
 ---
 
 ## 🛠️ Getting Started
 
-**Direct Download: [mr-linux.deb](https://drive.google.com/uc?export=download&id=1l7UTSxDM3RA--Dn4eFjK4ZHCH6ZknLWI)**
-
-**How to install:**
-
-```
-sudo dpkg -i mr-linux.deb # for install
-sudo dpkg -r mr-linux.deb # for uninstall
-```
+**Option 1: Install from `.deb`**
 
 ```bash
-git clone https://github.com/nemcyberworld/Mr-Linux.git
-cd Mr-Linux
+sudo dpkg -i mr-linux.deb   # install
+sudo dpkg -r mr-linux       # uninstall
+```
+
+**Option 2: Clone the repository**
+
+```bash
+git clone https://github.com/nemcyberworld/mr-linux.git
+cd mr-linux
 bash main.sh
 ```
 
-Or launch specific lessons manually:
+**Run individual lessons manually:**
 
 ```bash
-cd "lesson/03. Variables and Quoting/"
+cd "lessons/02. File & Directory Management/ls"
 bash lesson.sh
 ```
 
@@ -95,18 +110,18 @@ bash lesson.sh
 
 ## 💾 Save System
 
-Game progress and points are saved automatically to:
+Your game progress is stored automatically in:
 
 ```bash
 ~/.mr_linux_save
 ```
 
-It includes:
+Tracks:
 
-* `COMPLETED_LEVELS`
-* `POINTS`
+* Completed levels
+* Total points
 
-You can reset progress anytime by deleting the file.
+To reset your progress, simply delete the file.
 
 ---
 
@@ -117,21 +132,23 @@ You can reset progress anytime by deleting the file.
 
 ---
 
-## 🧠 License
+## 📄 License
 
-This project is open-source under the [MIT License](https://chatgpt.com/c/LICENSE). Contributions welcome!
+Licensed under the [MIT License](https://chatgpt.com/c/LICENSE). Contributions welcome!
 
 ---
 
-## 🌟 Support the Project
+## 🌟 Support Mr Linux
 
-If you enjoy Mr Linux and want to support its development:
+If you find Mr Linux useful or fun:
 
 * ⭐ Star the repo
 * 🍴 Fork and add your own lessons
-* 🐛 Report issues or suggest features
-* 📣 Share with fellow Linux learners and hackers!
+* 🐛 Report issues or suggest improvements
+* 📣 Share with fellow Linux learners
 
 ---
 
 > *“The shell is my sword, and Bash is my spellbook.”* — Captain Nemo 🐙
+
+---
