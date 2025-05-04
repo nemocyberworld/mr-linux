@@ -84,14 +84,7 @@ Your skills will be tested in the **“Gaming Time”** section — a multi-leve
 
 ## 🛠️ Getting Started
 
-**Option 1: Install from `.deb`**
-
-```bash
-sudo dpkg -i mr-linux.deb   # install
-sudo dpkg -r mr-linux       # uninstall
-```
-
-**Option 2: Clone the repository**
+**Clone the repository**
 
 ```bash
 git clone https://github.com/nemcyberworld/mr-linux.git
