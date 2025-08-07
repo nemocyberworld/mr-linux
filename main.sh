@@ -1,5 +1,24 @@
 #!/bin/bash
 
+# Mr Linux - Created by Hacktolie Academy
+# https://hacktolie.com
+
+clear
+echo -e "\e[1;32m"  # Green bold
+echo "#     #           #                              "
+echo "##   ## #####     #       # #    # #    # #    # "
+echo "# # # # #    #    #       # ##   # #    #  #  #  "
+echo "#  #  # #    #    #       # # #  # #    #   ##   "
+echo "#     # #####     #       # #  # # #    #   ##   "
+echo "#     # #   #     #       # #   ## #    #  #  #  "
+echo "#     # #    #    ####### # #    #  ####  #    # "
+echo -e "\e[0m"
+echo -e "           🔧 Created by \e[1;34mHacktolie Academy\e[0m - https://hacktolie.com"
+sleep 2
+
+
+sleep s
+
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$SCRIPT_DIR/config.sh"
 
